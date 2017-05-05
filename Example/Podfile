@@ -1,0 +1,12 @@
+use_frameworks!
+platform :ios, '9.0'
+
+target 'SwiftyBeaver-Destinations_Example' do
+  
+  pod 'Reusable'
+  pod 'SwiftLint'
+  
+  pod 'SwiftyBeaver-Destinations/LogEntries', :path => '../'
+  pod 'SwiftyBeaver-Destinations/Logmatic', :path => '../'
+
+end

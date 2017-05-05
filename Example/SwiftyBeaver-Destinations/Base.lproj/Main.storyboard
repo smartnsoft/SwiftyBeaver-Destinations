@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="SwiftyBeaver_Destinations_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="h9p-Sx-f0G">
+                                <rect key="frame" x="16" y="20" width="343" height="575"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TextFieldCell" id="C77-eH-W56" userLabel="Message cell" customClass="TextFieldCell" customModule="SwiftyBeaver_Destinations_Example" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="343" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="C77-eH-W56" id="YgR-RA-nSC">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Message à envoyer" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Y7-nx-X7C">
+                                                    <rect key="frame" x="8" y="8" width="327" height="28"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="4Y7-nx-X7C" secondAttribute="bottom" id="H4P-xz-GX9"/>
+                                                <constraint firstItem="4Y7-nx-X7C" firstAttribute="leading" secondItem="YgR-RA-nSC" secondAttribute="leadingMargin" id="MYl-UB-bnS"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="4Y7-nx-X7C" secondAttribute="trailing" id="bl9-tr-0GT"/>
+                                                <constraint firstItem="4Y7-nx-X7C" firstAttribute="top" secondItem="YgR-RA-nSC" secondAttribute="topMargin" id="tww-aF-Miw"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="ibMessageTextField" destination="4Y7-nx-X7C" id="vmJ-bG-YxM"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SegmentedControlCell" id="v2f-fR-4Qx" userLabel="Log level" customClass="SegmentedControlCell" customModule="SwiftyBeaver_Destinations_Example" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="72" width="343" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="v2f-fR-4Qx" id="9fM-Ty-q5P">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="nh4-K6-MDX">
+                                                    <rect key="frame" x="8" y="8" width="327" height="28"/>
+                                                    <segments>
+                                                        <segment title="Verbose"/>
+                                                        <segment title="Debug"/>
+                                                        <segment title="Info"/>
+                                                        <segment title="Warning"/>
+                                                        <segment title="Error"/>
+                                                    </segments>
+                                                    <connections>
+                                                        <action selector="changeLogLevel:" destination="v2f-fR-4Qx" eventType="valueChanged" id="2s3-2p-ilY"/>
+                                                    </connections>
+                                                </segmentedControl>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="nh4-K6-MDX" secondAttribute="trailing" id="EhD-jE-RSs"/>
+                                                <constraint firstItem="nh4-K6-MDX" firstAttribute="leading" secondItem="9fM-Ty-q5P" secondAttribute="leadingMargin" id="KAj-Xr-Dng"/>
+                                                <constraint firstItem="nh4-K6-MDX" firstAttribute="top" secondItem="9fM-Ty-q5P" secondAttribute="topMargin" id="pyj-B0-77e"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="nh4-K6-MDX" secondAttribute="bottom" constant="1" id="zC6-6u-Ffb"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="ibSegmentedControl" destination="nh4-K6-MDX" id="ikr-5Y-1gg"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2U-OE-Ggr">
+                                <rect key="frame" x="16" y="603" width="343" height="44"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="A3H-Bt-bVp"/>
+                                </constraints>
+                                <state key="normal" title="Envoyer un message"/>
+                                <connections>
+                                    <action selector="sendLog:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NxH-F9-OTQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="h9p-Sx-f0G" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="BV8-kQ-UNw"/>
+                            <constraint firstItem="h9p-Sx-f0G" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="I7q-x2-JyX"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="d2U-OE-Ggr" secondAttribute="bottom" constant="20" id="KU5-JK-qYI"/>
+                            <constraint firstItem="d2U-OE-Ggr" firstAttribute="top" secondItem="h9p-Sx-f0G" secondAttribute="bottom" constant="8" id="YPS-v0-Oa1"/>
+                            <constraint firstItem="d2U-OE-Ggr" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="bfu-RX-Vo2"/>
+                            <constraint firstItem="d2U-OE-Ggr" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="qUS-p9-GWY"/>
+                            <constraint firstItem="h9p-Sx-f0G" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="wFf-zQ-8Bo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ibSendLogButton" destination="d2U-OE-Ggr" id="4vi-xT-7hA"/>
+                        <outlet property="ibTableView" destination="h9p-Sx-f0G" id="b5d-u4-9HT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76" y="36.431784107946029"/>
+        </scene>
+    </scenes>
+</document>
