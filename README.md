@@ -1,3 +1,7 @@
+<h3 align="center">
+    <img src="logo.png" width="300" />
+</h3>
+
 # SwiftyBeaver-Destinations
 
 [![CI Status](http://img.shields.io/travis/smartnsoft/SwiftyBeaver-Destinations.svg?style=flat)](https://travis-ci.org/smartnsoft/SwiftyBeaver-Destinations)
@@ -12,7 +16,7 @@ Available destinations:
 - [LogEntries](https://logentries.com/)
 - [Logmatic](https://logmatic.io)
 
-## Requirements
+## Requirements 
 
 - iOS 9
 - Xcode 8.3.2+
