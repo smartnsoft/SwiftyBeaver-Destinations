@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "447A9B1B1EC5E42F00A75BCF"
+               BuildableName = "SwiftyBeaver-Destinations_ExampleTests.xctest"
+               BlueprintName = "SwiftyBeaver-Destinations_ExampleTests"
+               ReferencedContainer = "container:SwiftyBeaver-Destinations.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

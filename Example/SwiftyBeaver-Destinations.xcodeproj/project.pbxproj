@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		447A9B1F1EC5E42F00A75BCF /* SwiftyBeaver_Destinations_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447A9B1E1EC5E42F00A75BCF /* SwiftyBeaver_Destinations_ExampleTests.swift */; };
 		5D27A20CA2C1F5C9FA14DABA /* Pods_SwiftyBeaver_Destinations_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EEF796CEB13D1B5C1A9075 /* Pods_SwiftyBeaver_Destinations_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -21,10 +22,23 @@
 		6D57B3031EC5BECD002B5B43 /* DestinationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D57B3021EC5BECD002B5B43 /* DestinationCell.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		447A9B211EC5E42F00A75BCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = "SwiftyBeaver-Destinations_Example";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		05EEF796CEB13D1B5C1A9075 /* Pods_SwiftyBeaver_Destinations_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyBeaver_Destinations_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2033AC688A31CB987C043231 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		318B91F136B5E5D25490B8B9 /* Pods_SwiftyBeaver_Destinations_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyBeaver_Destinations_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		447A9B1C1EC5E42F00A75BCF /* SwiftyBeaver-Destinations_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftyBeaver-Destinations_ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		447A9B1E1EC5E42F00A75BCF /* SwiftyBeaver_Destinations_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyBeaver_Destinations_ExampleTests.swift; sourceTree = "<group>"; };
+		447A9B201EC5E42F00A75BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5942C2A81D3DCF02A1FA4C14 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftyBeaver-Destinations_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftyBeaver-Destinations_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +61,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		447A9B191EC5E42F00A75BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCD1AFB9204008FA782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		447A9B1D1EC5E42F00A75BCF /* SwiftyBeaver-Destinations_ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				447A9B1E1EC5E42F00A75BCF /* SwiftyBeaver_Destinations_ExampleTests.swift */,
+				447A9B201EC5E42F00A75BCF /* Info.plist */,
+			);
+			path = "SwiftyBeaver-Destinations_ExampleTests";
+			sourceTree = "<group>";
+		};
 		46173E0F8DA09DFDE01CF2BF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +104,7 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for SwiftyBeaver-Destinations */,
+				447A9B1D1EC5E42F00A75BCF /* SwiftyBeaver-Destinations_ExampleTests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				46173E0F8DA09DFDE01CF2BF /* Pods */,
 				9EE5B4A8E90A9048427CB57D /* Frameworks */,
@@ -84,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* SwiftyBeaver-Destinations_Example.app */,
+				447A9B1C1EC5E42F00A75BCF /* SwiftyBeaver-Destinations_ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,6 +194,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		447A9B1B1EC5E42F00A75BCF /* SwiftyBeaver-Destinations_ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 447A9B231EC5E42F00A75BCF /* Build configuration list for PBXNativeTarget "SwiftyBeaver-Destinations_ExampleTests" */;
+			buildPhases = (
+				447A9B181EC5E42F00A75BCF /* Sources */,
+				447A9B191EC5E42F00A75BCF /* Frameworks */,
+				447A9B1A1EC5E42F00A75BCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				447A9B221EC5E42F00A75BCF /* PBXTargetDependency */,
+			);
+			name = "SwiftyBeaver-Destinations_ExampleTests";
+			productName = "SwiftyBeaver-Destinations_ExampleTests";
+			productReference = 447A9B1C1EC5E42F00A75BCF /* SwiftyBeaver-Destinations_ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		607FACCF1AFB9204008FA782 /* SwiftyBeaver-Destinations_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SwiftyBeaver-Destinations_Example" */;
@@ -189,10 +239,15 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Smart&Soft";
 				TargetAttributes = {
+					447A9B1B1EC5E42F00A75BCF = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0820;
@@ -213,11 +268,19 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* SwiftyBeaver-Destinations_Example */,
+				447A9B1B1EC5E42F00A75BCF /* SwiftyBeaver-Destinations_ExampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		447A9B1A1EC5E42F00A75BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCE1AFB9204008FA782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -294,6 +357,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		447A9B181EC5E42F00A75BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447A9B1F1EC5E42F00A75BCF /* SwiftyBeaver_Destinations_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCC1AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -309,6 +380,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		447A9B221EC5E42F00A75BCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* SwiftyBeaver-Destinations_Example */;
+			targetProxy = 447A9B211EC5E42F00A75BCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
@@ -330,6 +409,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		447A9B241EC5E42F00A75BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "SwiftyBeaver-Destinations_ExampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SwiftyBeaver-Destinations-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyBeaver-Destinations_Example.app/SwiftyBeaver-Destinations_Example";
+			};
+			name = Debug;
+		};
+		447A9B251EC5E42F00A75BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				INFOPLIST_FILE = "SwiftyBeaver-Destinations_ExampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SwiftyBeaver-Destinations-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyBeaver-Destinations_Example.app/SwiftyBeaver-Destinations_Example";
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -425,7 +540,7 @@
 				INFOPLIST_FILE = "SwiftyBeaver-Destinations/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -439,7 +554,7 @@
 				INFOPLIST_FILE = "SwiftyBeaver-Destinations/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -448,6 +563,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		447A9B231EC5E42F00A75BCF /* Build configuration list for PBXNativeTarget "SwiftyBeaver-Destinations_ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447A9B241EC5E42F00A75BCF /* Debug */,
+				447A9B251EC5E42F00A75BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SwiftyBeaver-Destinations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
