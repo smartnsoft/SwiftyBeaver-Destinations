@@ -35,7 +35,7 @@ public final class LogEntriesDestination: BaseDestination {
     self.level = level
   }
   
-  public override func send(_ level: SwiftyBeaver.Level, msg: String, thread: String, file: String, function: String, line: Int) -> String? {
+  public override func send(_ level: SwiftyBeaver.Level, msg: String, thread: String, file: String, function: String, line: Int, context: Any?) -> String? {
     
     let dict = LogUtils.formatMessage(level: level, msg: msg, thread: thread, file: file, function: function, line: line)
     

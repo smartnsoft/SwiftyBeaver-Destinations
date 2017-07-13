@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftyBeaver-Destinations'
-  s.version          = '0.0.2'
+  s.version          = '0.1.0'
   s.summary          = 'Additionals destinations (LogEntries, Logmatic) and utilities for SwiftyBeaver.'
 
   s.homepage         = 'https://github.com/smartnsoft/SwiftyBeaver-Destinations'

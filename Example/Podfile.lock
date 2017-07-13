@@ -6,14 +6,14 @@ PODS:
     - Reusable/View (= 4.0.0)
   - Reusable/Storyboard (4.0.0)
   - Reusable/View (4.0.0)
-  - SwiftLint (0.18.1)
-  - SwiftyBeaver (1.2.2)
-  - SwiftyBeaver-Destinations/Core (0.0.1):
-    - SwiftyBeaver (~> 1.2.1)
-  - SwiftyBeaver-Destinations/LogEntries (0.0.1):
+  - SwiftLint (0.20.1)
+  - SwiftyBeaver (1.3.0)
+  - SwiftyBeaver-Destinations/Core (0.0.2):
+    - SwiftyBeaver (~> 1.3)
+  - SwiftyBeaver-Destinations/LogEntries (0.0.2):
     - iOSLogEntries (~> 1.2)
     - SwiftyBeaver-Destinations/Core
-  - SwiftyBeaver-Destinations/Logmatic (0.0.1):
+  - SwiftyBeaver-Destinations/Logmatic (0.0.2):
     - Logmatic (~> 1.0)
     - SwiftyBeaver-Destinations/Core
 
@@ -31,9 +31,9 @@ SPEC CHECKSUMS:
   iOSLogEntries: f7eb65033a09b8850e092d0aed3ad75d3553f1f1
   Logmatic: c89f3bdab0dac02f7f8b365dabcbf548b0c5f25a
   Reusable: 98e5fff1e0e2e00872199699b276dde08ee56c07
-  SwiftLint: b467d08f5b25dc3b3cfed243d8e1b74b91714c67
-  SwiftyBeaver: 90a39e3dc5136b7285f2e4c870b107e3933b8b84
-  SwiftyBeaver-Destinations: 16f30f26a9aa0e49a4646801efde750bee4a0373
+  SwiftLint: f60095dc173a3f3ec505bb34f5229c3dfd779a54
+  SwiftyBeaver: d4b551ba34b4206c52cc4684ae90444b8aaa5afd
+  SwiftyBeaver-Destinations: 4f0dedd92eb1d4fd0fbfee94d0b8105eb13ecd5a
 
 PODFILE CHECKSUM: 27205d2b1bc56a4e8d180282270ebed6016ebffe
 
