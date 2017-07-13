@@ -33,7 +33,7 @@ SPEC CHECKSUMS:
   Reusable: 98e5fff1e0e2e00872199699b276dde08ee56c07
   SwiftLint: b467d08f5b25dc3b3cfed243d8e1b74b91714c67
   SwiftyBeaver: 90a39e3dc5136b7285f2e4c870b107e3933b8b84
-  SwiftyBeaver-Destinations: c643aee7eee432985d8d89b686bd3b742b4bfd4c
+  SwiftyBeaver-Destinations: 16f30f26a9aa0e49a4646801efde750bee4a0373
 
 PODFILE CHECKSUM: 27205d2b1bc56a4e8d180282270ebed6016ebffe
 
