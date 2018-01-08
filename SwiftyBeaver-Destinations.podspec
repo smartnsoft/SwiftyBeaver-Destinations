@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftyBeaver-Destinations'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Additionals destinations (LogEntries, Logmatic) and utilities for SwiftyBeaver.'
 
   s.homepage         = 'https://github.com/smartnsoft/SwiftyBeaver-Destinations'
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |ss|
     ss.source_files = 'SwiftyBeaver-Destinations/Classes/Utils/*.{swift,h,m}'
-    ss.dependency 'SwiftyBeaver', '~> 1.3'
+    ss.dependency 'SwiftyBeaver', '~> 1.5'
   end
 
   s.subspec 'LogEntries' do |ss|
