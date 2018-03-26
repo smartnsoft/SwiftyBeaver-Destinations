@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftyBeaver-Destinations.svg?style=flat)](http://cocoapods.org/pods/SwiftyBeaver-Destinations)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyBeaver-Destinations.svg?style=flat)](http://cocoapods.org/pods/SwiftyBeaver-Destinations)
 
-Add pre-configured console destinations for and based on [SwiftyBeaver](https://github.com/SwiftyBeaver/SwiftyBeaver).
+Add pre-configured console destinations 🔌 for, and based on [SwiftyBeaver](https://github.com/SwiftyBeaver/SwiftyBeaver).
 
 Available destinations:
 
@@ -19,7 +19,8 @@ Available destinations:
 ## Requirements 
 
 - iOS 9
-- Xcode 8.3.2+
+- Xcode 9.2+
+- Swift 4
 
 ## Installation
 
@@ -70,9 +71,9 @@ Available destinations at the moment are:
 
 - Default console with emojis 🎉: `log.addDestination(Destinations.console)`
 
-## Author
+## Contributors
 
-The iOS Team @Smart&Soft, software agency [http://www.smartnsoft.com](http://www.smartnsoft.com)
+Made in 🇫🇷 by the [Smart&Soft](https://smartnsoft.com/) iOS Team.
 
 ## License
 
