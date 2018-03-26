@@ -13,7 +13,7 @@ before_install:
  - gem install cocoapods # Since Travis is not always on latest version
 script:
 # It's only one command who count for valid or not build session
-- scan -s SwiftyBeaver-Destinations-Example
+- fastlane scan -s SwiftyBeaver-Destinations-Example
 
 after_success:
 # I have put this in after_success coz it's failed.
