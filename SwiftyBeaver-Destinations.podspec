@@ -17,13 +17,13 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'LogEntries' do |ss|
-    ss.source_files = "SwiftyBeaver-Destinations/Classes/LogEntries/**/*.{swift,h,m}"
+    ss.source_files = 'SwiftyBeaver-Destinations/Classes/LogEntries/**/*.{swift,h,m}'
     ss.dependency 'SwiftyBeaver-Destinations/Core'
     ss.dependency 'iOSLogEntries', '~> 1.2'
   end
 
   s.subspec 'Logmatic' do |ss|
-    ss.source_files = "SwiftyBeaver-Destinations/Classes/Logmatic/**/*.{swift,h,m}"
+    ss.source_files = 'SwiftyBeaver-Destinations/Classes/Logmatic/**/*.{swift,h,m}'
     ss.dependency 'SwiftyBeaver-Destinations/Core'
     ss.dependency 'Logmatic', '~> 1.0'
   end
